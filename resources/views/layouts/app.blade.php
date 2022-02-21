@@ -35,8 +35,10 @@
             </div>
         </div>
     </nav>
-    <main class="py-4">
+    <v-app id="app">
+        <v-main>
         @yield('content')
-    </main>
+        </v-main>
+    </v-app>   
 </body>
 </html>
