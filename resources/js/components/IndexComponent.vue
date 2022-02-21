@@ -14,7 +14,7 @@
                     v-on="on"
                     >
                     <v-icon small left>mdi-account</v-icon>
-                    Add Game
+                    Add Games
                     </v-btn>
                 </template>
 
