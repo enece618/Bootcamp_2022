@@ -37752,7 +37752,7 @@ var render = function () {
                             _vm._v("mdi-account"),
                           ]),
                           _vm._v(
-                            "\n                Add Game\n                "
+                            "\n                Add Games\n                "
                           ),
                         ],
                         1
