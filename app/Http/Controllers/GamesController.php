@@ -118,4 +118,10 @@ class GamesController extends Controller
 
         return redirect('/games');
     }
+
+    public function get_games()
+    {
+        $games = Game::orderBy('id', 'desc')->paginate(10);
+        return $games;
+    }
 }
