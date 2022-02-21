@@ -7,7 +7,7 @@
                 <h1>Videojuegos</h1>
             </div>
         </div>
-        <div class="py-5">
+        <!-- <div class="py-5">
             <div class="container">
                 <div class="row hidden-md-up">
                     @foreach($games as $key => $game)
@@ -53,6 +53,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <example-component></example-component>
+
     </div>
 @endsection

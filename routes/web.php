@@ -23,3 +23,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/home', 'home');
 Route::resource('games', 'GamesController');
+Route::get('get/games', 'GamesController@get_games');
