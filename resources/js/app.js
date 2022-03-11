@@ -22,6 +22,7 @@ import Vuetify from 'vuetify';
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/IndexComponent.vue').default);
+Vue.component('playstation-component', require('./components/playstation/indexComponent.vue').default);
 Vue.use(Vuetify);
 
 /**
